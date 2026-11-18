@@ -1,10 +1,12 @@
 # Common commands
-git init - create git repo
-git add - move file(s) to staging area. add multiple files using `git add .`
-git commit -m "comment"
-git diff - show changes from master and current
-git status 
-git log
+`git init` - create git repo in current directory
+`git add` - move file(s) to staging area. add multiple files using `git add .`
+`git commit -m "comment"` - takes staging area items and records them as a snapshot in local repo. Basically saving your work 
+`git remote add origin git@github.com:USERNAME/myproject.git` - 
+`git push -u origin master` - push changes to git
+`git diff` - show changes from master and current
+`git status`
+`git log`
 
 Common workflow is edit file > `git add` > `git commit` > `git push`
 
